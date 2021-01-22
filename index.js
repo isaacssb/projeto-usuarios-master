@@ -1,7 +1,13 @@
 var fields = document.querySelectorAll("#form-user-create [name]");
 var user = {};
 
-document.getElementById("form-user-create").addEventListener("submit", function(event){
+function addLine(dataUser) {
+
+  var
+
+}
+
+document.getElementById("form-user-create").addEventListener("submit", function(event) {
 
   event.preventDefault();
 
@@ -19,6 +25,6 @@ document.getElementById("form-user-create").addEventListener("submit", function(
       }
   });
 
-  console.log(user);
+  addLine(user);
 
 });
